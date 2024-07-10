@@ -166,6 +166,125 @@
       "h_max": 2500,
       "d_range_max": 5      
    }
+  },
+   "JobyS4": {
+    "name": "Joby Aviation S4 eVTOL",
+    "n_engines": 6,
+    "engine_type": "TS",
+    "mtow": 2404,
+    "oew": 1950,
+    "mfc": 0,
+    "engines": [["Motor-1", 236], ["Motor-2", 236], ["Motor-3", 236], ["Motor-4", 236], ["Motor-5", 236], ["Motor-6", 236]],
+    "envelop": {
+      "v_min": 0,
+      "v_max": 89,
+      "vs_min": -5,
+      "vs_max": 5,
+      "h_max": 3000,
+      "d_range_max": 161
+   }
+  },
+   "Lilium": {
+    "name": "Lilium Jet eVTOL 7-seater",
+    "n_engines": 36,
+    "engine_type": "TS",
+    "mtow": 3175,
+    "oew": 2200,
+    "mfc": 0,
+    "engines": [["Motor-1", 40], ["Motor-2", 40], ["Motor-3", 40], ["Motor-4", 40], ["Motor-5", 40], ["Motor-6", 40], ["Motor-7", 40], ["Motor-8", 40], ["Motor-9", 40], ["Motor-10", 40], ["Motor-11", 40], ["Motor-12", 40]],
+    "envelop": {
+     "v_min": 0,
+     "v_max": 69,
+     "vs_min": -5,
+     "vs_max": 5,
+     "h_max": 3000,
+     "d_range_max": 250
+   }
+  },
+   "Midnight": {
+    "name": "Archer Aviation Midnight eVTOL",
+    "n_engines": 12,
+    "engine_type": "TS",
+    "mtow": 3175,
+    "oew": 2720,
+    "mfc": 0,
+    "engines": [["Motor-1", 60], ["Motor-2", 60], ["Motor-3", 60], ["Motor-4", 60], ["Motor-5", 60], ["Motor-6", 60], ["Motor-7", 60], ["Motor-8", 60], ["Motor-9", 60], ["Motor-10", 60], ["Motor-11", 60], ["Motor-12", 60]],
+    "envelop": {
+      "v_min": 0,
+      "v_max": 66,
+      "vs_min": -5,
+      "vs_max": 5,
+      "h_max": 800,
+      "d_range_max": 50
+   }
+  },
+   "Cora": {
+    "name": "Wisk Aero Generation 6",
+    "n_engines": 12,
+    "engine_type": "TS",
+    "mtow": 1600,
+    "oew": 1000,
+    "mfc": 0,
+    "engines": [["Motor-1", 45], ["Motor-2", 45], ["Motor-3", 45], ["Motor-4", 45], ["Motor-5", 45], ["Motor-6", 45], ["Motor-7", 45], ["Motor-8", 45], ["Motor-9", 45], ["Motor-10", 45], ["Motor-11", 45], ["Motor-12", 45]],
+    "envelop": {
+      "v_min": 0,
+      "v_max": 61,
+      "vs_min": -5,
+      "vs_max": 5,
+      "h_max": 1500,
+      "d_range_max": 144
+   }
+  },
+   "Volocity": {
+    "name": "VoloCity 4th generation eVTOL multicopter",
+    "n_engines": 18,
+    "engine_type": "TS",
+    "mtow": 900,
+    "oew": 700,
+    "mfc": 0,
+    "engines": [["Motor-1", 9.2], ["Motor-2", 9.2], ["Motor-3", 9.2], ["Motor-4", 9.2], ["Motor-5", 9.2], ["Motor-6", 45], ["Motor-7", 9.2], ["Motor-8", 9.2], ["Motor-9", 9.2], ["Motor-10", 9.2], ["Motor-11", 9.2], ["Motor-12", 9.2], ["Motor-13", 9.2], ["Motor-14", 9.2], ["Motor-15", 9.2], ["Motor-16", 9.2], ["Motor-17", 9.2], ["Motor-18", 9.2]],
+    "envelop": {
+      "v_min": 0,
+      "v_max": 25,
+      "vs_min": -3,
+      "vs_max": 3,
+      "h_max": 1500,
+      "d_range_max": 40
+   }
+  },
+   "EVE": {
+     "name": "Eve Air Mobility eVTOL",
+     "n_engines": 8,
+     "engine_type": "TS",
+     "mtow": 3175,
+     "oew": 2200,
+     "mfc": 0,
+     "engines": [["Motor-1", 70], ["Motor-2", 70], ["Motor-3", 70], ["Motor-4", 70], ["Motor-5", 70], ["Motor-6", 70], ["Motor-7", 70], ["Motor-8", 70]],
+     "envelop": {
+      "v_min": 0,
+      "v_max": 56,
+      "vs_min": -5,
+      "vs_max": 5,
+      "h_max": 3000,
+      "d_range_max": 100
+   }
+  },
+   "EH216": {
+    "name": "EHang EH216-S eVTOL rotorcraft",
+    "n_engines": 16,
+    "engine_type": "TS",
+    "mtow": 582,
+    "oew": 360,
+    "mfc": 0,
+    "engines": [["Motor-1", 17], ["Motor-2", 17], ["Motor-3", 17], ["Motor-4", 17], ["Motor-5", 17], ["Motor-6", 17], ["Motor-7", 17], ["Motor-8", 17], ["Motor-9", 17], ["Motor-10", 17], ["Motor-11", 17], ["Motor-12", 17], ["Motor-13", 17], ["Motor-14", 17], ["Motor-15", 17], ["Motor-16", 17]],
+    "envelop": {
+      "v_min": 0,
+      "v_max": 27,
+      "vs_min": -5,
+      "vs_max": 5,
+      "h_max": 3000,
+      "d_range_max": 35      
+   }
   }
 }  
       
